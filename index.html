@@ -34,12 +34,9 @@
     <title>Portfolio project - Nina Klym</title>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark"
-      data-bs-theme="dark"
-    >
+    <nav class="navbar navbar-expand-lg navbar-bg ps-4" data-bs-theme="light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Nina Klym</a>
+        <a class="navbar-brand text-uppercase" href="#">Nina Klym</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -57,13 +54,20 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
             </li>
           </ul>
-          <!-- <span class="navbar-text"> Navbar text with an inline element </span> -->
+          <span class="navbar-text">
+            <h3 class="my-contacts pe-4 d-none d-lg-block">
+              📩 klymenkon2602@gmail.com, ✆ +33749991683
+            </h3>
+          </span>
         </div>
       </div>
     </nav>
@@ -78,13 +82,32 @@
             </h1>
           </div>
           <h2 class="second-title-left">junior</h2>
-          <h1 class="title-top title-bottom-right">Developer</h1>
+          <div class="row">
+            <div class="col-9">
+              <h1 class="title-top title-bottom-right">Developer</h1>
+            </div>
+            <div class="col-3 text-end align-self-end">
+              <a
+                class="btn btn-outline-warning btn-lg cv-button"
+                role="button"
+                aria-disabled="true"
+                >CV</a
+              >
+            </div>
+          </div>
+          <!-- <div class="text-end">
+            <a
+              class="btn btn-outline-warning btn-lg cv-button"
+              role="button"
+              aria-disabled="true"
+              >CV</a
+            >
+          </div> -->
         </div>
 
         <div class="col-md-4 bg-right">
-          <h3 class="my-information">+33749991683</h3>
-          <h3 class="my-information">klymenkon2602@gmail.com</h3>
           <h1 class="title-top title-top-left d-none d-lg-block">End</h1>
+
           <h3 class="welcome-text">
             <strong> Welcome to my portfolio web site </strong>
           </h3>
@@ -96,6 +119,10 @@
           <p class="my-information">web developer based in France</p>
           <h3 class="my-information paragraph-padding">
             <strong> HTML 5, CSS, JAVA, BOOTSTRAB </strong>
+            <h3 class="my-contacts d-block d-lg-none mt-4">
+              📩 klymenkon2602@gmail.com <br />
+              ✆ +33749991683
+            </h3>
           </h3>
         </div>
       </div>
