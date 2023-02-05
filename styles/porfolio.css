@@ -1,7 +1,74 @@
-h1 {
-  font-family: "Playfair Display", serif;
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+:root { */
+:root {
+  --title-font: "Bebas Neue", cursive;
+  --second-title-font: "Poppins", sans-serif;
+  --title-font-color: #6c6c6cb0;
+  --bg-color-left: #171717;
+  --bg-color-right: rgba(254, 212, 57, 1);
 }
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+
+.bg-left {
+  background-color: var(--bg-color-left);
+}
+
+.title-top,
+.title-top-icon {
+  font-family: var(--title-font);
+  color: var(--title-font-color);
+  font-size: 210px;
+  letter-spacing: 25px;
+}
+.title-bottom-right {
+  letter-spacing: 0;
+}
+.title-top-right,
+.title-top-icon {
+  margin-top: 110px;
+}
+.title-top-left {
+  margin-top: 45px;
+}
+.title-top-icon {
+  font-stretch: ultra-expanded;
+}
+.bg-right {
+  background-color: var(--bg-color-right);
+  padding-top: 20px;
+  border-radius: 18px 0px 0px 18px;
+}
+.second-title-left {
+  font-family: var(--second-title-font);
+  font-size: 90px;
+  text-transform: uppercase;
+  color: #6c6c6c5f;
+}
+.my-information {
+  font-family: var(--second-title-font);
+  font-size: 16px;
+}
+
+@media (max-width: 992px) {
+  .title-top,
+  .title-top-icon {
+    letter-spacing: 0px;
+    margin-bottom: 0%;
+    font-size: 110px;
+  }
+  .title-top-left {
+    margin-top: 0;
+  }
+  .second-title-left {
+    margin-bottom: 24px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-top,
+  .title-top-icon {
+    margin-top: 0;
+  }
 }
