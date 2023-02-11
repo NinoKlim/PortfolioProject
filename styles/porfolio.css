@@ -8,11 +8,25 @@ font-family: 'Poppins', sans-serif;
   --title-font-color: #818181;
   --bg-color-left: #171717;
   --bg-color-right: #ffc007;
+  --paragraph-coor: #d1d1d1;
+  --hover-color: #dbdbdb;
 }
-
+.page-second {
+  padding: 20px 0px 20px 0px;
+}
+.bg-right {
+  background-color: var(--bg-color-right);
+  padding: 0px 30px;
+  border-radius: 18px 0px 0px 0px;
+}
+.bg-right-border {
+  background-color: var(--bg-color-right);
+  border-radius: 0px;
+  padding: 0px 30px;
+}
 .bg-left {
   background-color: var(--bg-color-left);
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 .title-top,
@@ -21,7 +35,10 @@ font-family: 'Poppins', sans-serif;
   color: var(--title-font-color);
   font-size: 190px;
   font-weight: 500px;
-  letter-spacing: 35px;
+}
+.title-hover:hover {
+  color: var(--hover-color);
+  transition: 0.2s, ease, 0s, color 1s;
 }
 .title-bottom-left {
   letter-spacing: 0;
@@ -39,11 +56,6 @@ font-family: 'Poppins', sans-serif;
 
 .left-text-block {
   font-family: var(--second-title-font);
-}
-.bg-right {
-  background-color: var(--bg-color-right);
-  padding: 0px 30px;
-  border-radius: 18px 0px 0px 18px;
 }
 .second-title-left {
   font-size: 90px;
@@ -74,6 +86,24 @@ font-family: 'Poppins', sans-serif;
 .cv-button {
   margin-bottom: 65px;
 }
+.paragrahp-number,
+.second-title-paragrahp {
+  color: var(--paragraph-coor);
+  font-family: var(--second-title-font);
+  font-weight: 300;
+}
+.paragrahp-number {
+  padding: 0px 50px 0px 70px;
+}
+.title-paragrahp {
+  padding: 150px 0px 50px 0px;
+  color: var(--paragraph-coor);
+  font-family: var(--title-font);
+  font-size: 100px;
+  font-weight: 700;
+  text-align: center;
+}
+
 @media (max-width: 992px) {
   .title-top,
   .title-top-icon {
@@ -97,6 +127,14 @@ font-family: 'Poppins', sans-serif;
   }
   .cv-button {
     margin-bottom: 25px;
+  }
+  .title-paragrahp {
+    padding: 50px 0px 10px 0px;
+    font-size: 50px;
+  }
+  .paragrahp-number,
+  .second-title-paragrahp {
+    font-size: 20px;
   }
 }
 
@@ -125,5 +163,8 @@ font-family: 'Poppins', sans-serif;
   }
   .bg-left {
     padding-left: 0px;
+  }
+  .paragrahp-number {
+    padding: 0px 10px;
   }
 }
