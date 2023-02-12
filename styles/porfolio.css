@@ -76,17 +76,23 @@
   margin-bottom: 65px;
   font-family: var(--second-font);
 }
-
+.container-padding {
+  padding: 80px 0px 50px 0px;
+}
 .paragrahp-number {
   padding: 0px 50px 0px 70px;
 }
 .title-paragrahp {
-  padding: 100px 0px 50px 0px;
   color: var(--paragraph-color);
   font-family: var(--title-font);
   font-size: 100px;
   font-weight: 700;
   text-align: center;
+  padding-bottom: 30px;
+}
+
+.tables {
+  padding-right: 200px;
 }
 .paragrahp-number,
 .second-title-paragrahp,
@@ -110,6 +116,11 @@
   background-color: transparent;
   color: var(--bg-color-right);
 }
+@media (max-width: 1060px) {
+  .tables {
+    padding-right: 20px;
+  }
+}
 @media (max-width: 992px) {
   .title-top,
   .title-top-icon {
@@ -117,7 +128,6 @@
     margin-bottom: 0%;
     font-size: 90px;
   }
-
   .second-title-left {
     margin-bottom: 24px;
     font-size: 40px;
@@ -144,6 +154,10 @@
   }
   .title-top-icon {
     padding-left: 20px;
+  }
+  .buttons {
+    padding: 13px 20px;
+    margin: 30px 0px;
   }
 }
 
