@@ -30,15 +30,16 @@
   padding-top: 20px;
   font-family: var(--title-font);
   color: var(--title-font-color);
-  font-size: 190px;
+  font-size: 13vw;
   font-weight: 500px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.title-top-left {
-  letter-spacing: 15px;
-}
+
 .title-top-icon {
-  padding-left: 80px;
+  padding-left: 50px;
+}
+.title-bottom-left {
+  letter-spacing: -10px;
 }
 .title-hover:hover {
   color: var(--hover-color);
@@ -46,7 +47,7 @@
 }
 
 .second-title-left {
-  font-size: 90px;
+  font-size: 6vw;
   text-transform: uppercase;
 }
 .my-contacts,
@@ -62,6 +63,7 @@
 }
 .welcome-text {
   font-size: 20px;
+  padding-top: 70px;
 }
 .paragraph-padding {
   padding-top: 20px;
@@ -94,7 +96,7 @@
   padding-right: 200px;
 }
 .table-text-style {
-  font-size: 20px;
+  font-size: 16px;
 }
 .paragrahp-number,
 .second-title-paragrahp,
@@ -119,15 +121,13 @@
   background-color: transparent;
   color: var(--bg-color-right);
 }
+
 @media (max-width: 1024px) {
   .tables {
     padding-right: 20px;
   }
   .title-top-icon {
     padding: 20px;
-  }
-  .title-top-left {
-    letter-spacing: 0px;
   }
 }
 @media (max-width: 914px) {
@@ -136,12 +136,11 @@
     font-size: 40px;
   }
   .title-top,
-  .title-top-icon {
-    font-size: 140px;
+  .title-top-icon,
+  .title-bottom-left {
+    font-size: 110px;
   }
-  /* .title-top-left {
-    letter-spacing: 0px;
-  } */
+
   .my-information {
     font-size: 14px;
   }
@@ -187,9 +186,9 @@
     margin-bottom: 0;
     font-size: 25px;
   }
-  /* .icon {
-    font-size: 30px;
-  } */
+  .title-bottom-left {
+    letter-spacing: -5px;
+  }
 
   .bg-right,
   .paragraph-padding {

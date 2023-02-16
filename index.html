@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-RPE1M27K8B"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-RPE1M27K8B");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hello, I'm Nina Klymenko, front end developer based in France."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -33,7 +50,7 @@
 
     <link rel="stylesheet" href="/styles/porfolio.css" />
 
-    <title>Portfolio project - Nina Klym</title>
+    <title>Portfolio project|Nina Klym</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-bg ps-4" data-bs-theme="light">
@@ -56,7 +73,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="/index.html#my-projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">CV</a>
@@ -77,32 +94,36 @@
     <div class="container-fluid">
       <div class="row bg-left">
         <div class="col-md-8">
-          <div class="d-flex">
-            <h1 class="title-hover title-top title-top-left">F</h1>
-            <h1 class="title-hover title-top title-top-left">r</h1>
-            <h1 class="title-hover title-top title-top-left">o</h1>
-            <h1 class="title-hover title-top title-top-left">n</h1>
-            <h1 class="title-hover title-top title-top-left">t</h1>
-            <h1 class="title-hover title-top title-top-left">e</h1>
-            <h1 class="title-hover title-top title-top-left">d</h1>
-            <h1 class="title-top-icon title-hover">—</h1>
-            <h1 class="d-block d-md-none title-top title-top-left">End</h1>
+          <div class="col-sm d-flex">
+            <h1 class="title-top text-nowrap">
+              <span class="title-hover">F</span>
+              <span class="title-hover">r</span>
+              <span class="title-hover">o</span>
+              <span class="title-hover">n</span>
+              <span class="title-hover">t</span>
+              <span class="title-hover">e</span>
+              <span class="title-hover">d</span>
+              <span class="title-top-icon title-hover">—</span>
+              <span class="d-block d-md-none title-top">End</span>
+            </h1>
           </div>
 
           <h2 class="second-title-left">junior</h2>
           <div class="row">
             <div class="d-flex col-9">
-              <h1 class="title-hover title-top">d</h1>
-              <h1 class="title-hover title-top">e</h1>
-              <h1 class="title-hover title-top">v</h1>
-              <h1 class="title-hover title-top">e</h1>
-              <h1 class="title-hover title-top">l</h1>
-              <h1 class="title-hover title-top">o</h1>
-              <h1 class="title-hover title-top">p</h1>
-              <h1 class="title-hover title-top">e</h1>
-              <h1 class="title-hover title-top">r</h1>
+              <h1 class="text-nowrap title-bottom-left title-top">
+                <span class="title-hover">d</span>
+                <span class="title-hover">e</span>
+                <span class="title-hover">v</span>
+                <span class="title-hover">e</span>
+                <span class="title-hover">l</span>
+                <span class="title-hover">o</span>
+                <span class="title-hover">p</span>
+                <span class="title-hover">e</span>
+                <span class="title-hover">r</span>
+              </h1>
             </div>
-            <div class="col-3 text-end align-self-end">
+            <div class="col-sm-3 text-end align-self-end">
               <div class="d-none d-sm-block">
                 <a
                   class="btn btn-outline-warning btn-lg cv-button"
@@ -116,6 +137,7 @@
                   class="btn btn-outline-warning btn-sm cv-button"
                   role="button"
                   aria-disabled="true"
+                  title="CV web-page"
                   >CV</a
                 >
               </div>
@@ -147,6 +169,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-8 bg-left container-padding">
+          <div id="my-projects"></div>
           <h1 class="title-paragrahp">My work</h1>
           <div class="d-flex">
             <div class="col-sm-3">
@@ -176,12 +199,14 @@
                         class="btn btn-warning buttons"
                         href="https://www.shecodes.io/workshops/shecodes-basics-ddaf7aec-daa2-4da8-9620-330095707fa4/projects/1232595"
                         target="_blank"
+                        title="Honey web-page"
                         >Visit site</a
                       >
                       <a
                         class="btn btn-outline-warning buttons float-end"
                         href="https://github.com/NinoKlim/Honey-project"
                         target="_blank"
+                        title="Open source on github"
                         ><i class="fa-brands fa-github"></i> Code</a
                       >
                     </th>
@@ -195,7 +220,7 @@
           <div class="row align-items-end">
             <img
               src="/images/firstHomework.png"
-              alt="Honey web site"
+              alt="Honey web-page"
               class="img-fluid d-none d-md-block images-style"
             />
           </div>
@@ -233,12 +258,14 @@
                         class="btn btn-warning buttons"
                         href="https://www.shecodes.io/workshops/shecodes-plus-2d623bb5-d948-4008-b4ba-6ef55621cebf/projects/1384423"
                         target="_blank"
+                        title="Weather web-page"
                         >Visit site</a
                       >
                       <a
                         class="btn btn-outline-warning buttons float-end"
                         href="https://github.com/NinoKlim/VanillaWeather"
                         target="_blank"
+                        title="Open source on github"
                         ><i class="fa-brands fa-github"></i> Code</a
                       >
                     </th>
@@ -252,7 +279,7 @@
           <div class="row align-items-end">
             <img
               src="/images/weatherProject.png"
-              alt="Honey web site"
+              alt="Weather web-page"
               class="img-fluid d-none d-md-block images-style"
             />
           </div>
@@ -278,7 +305,7 @@
                   </tr>
                   <tr>
                     <th class="table-text-style ps-0">
-                      Weather web-page was created in january 2023
+                      Responsive web-page was created in january 2023
                       <br />
                       <strong> Made with HTML, CSS, BOOTSTRAB </strong>
                     </th>
@@ -289,12 +316,14 @@
                         class="btn btn-warning buttons"
                         href="https://deft-dodol-a6c998.netlify.app/"
                         target="_blank"
+                        title="Responsive web-page"
                         >Visit site</a
                       >
                       <a
                         class="btn btn-outline-warning buttons float-end"
                         href="https://github.com/NinoKlim/week2_homework"
                         target="_blank"
+                        title="Open source on github"
                         ><i class="fa-brands fa-github"></i> Code</a
                       >
                     </th>
@@ -308,7 +337,7 @@
           <div class="row align-items-end">
             <img
               src="/images/responsive_homework.png"
-              alt="Honey web site"
+              alt="Responsive web-page"
               class="img-fluid d-none d-md-block images-style"
             />
           </div>
