@@ -1,0 +1,55 @@
+:root {
+  --main-font: "neue_montrealbold";
+  --second-font: "neue_montrealregular";
+  --paragraph-font: "neue_montreallight";
+  --main-text-color: #aae0e8;
+  --paragraph-color: #f0f8ff;
+  --bg-color: #231f20;
+}
+body {
+  background-color: var(--bg-color);
+  font-family: var(--main-font);
+}
+a {
+  text-decoration: none;
+  color: #ffc007;
+  padding-left: 8px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.titles {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  color: var(--main-text-color);
+}
+.header {
+  font-size: 52px;
+  color: var(--bg-color);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--main-text-color);
+}
+.second-title {
+  font-size: 30px;
+}
+.head-title {
+  font-size: 18px;
+}
+.second-title,
+.head-title,
+.paragraph-title {
+  font-family: var(--second-font);
+}
+
+.paragraph-title,
+.paragraph-text {
+  color: var(--paragraph-color);
+  font-size: 14px;
+}
+.paragraph-text {
+  font-family: var(--paragraph-font);
+}
+.border-box {
+  border-bottom: 1px solid #aae0e8;
+  /* padding: 10px 0px; */
+}
