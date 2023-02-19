@@ -8,6 +8,22 @@
   --paragraph-color: #d1d1d1;
   --hover-color: #dbdbdb;
 }
+.contact-page-container {
+  line-height: 45px;
+  color: var(--second-title-font-color);
+}
+#bg-contact-page {
+  background-color: var(--bg-color-right);
+}
+.navbar-bg-contact-page {
+  background-color: var(--bg-color-left);
+}
+.header-contact-page {
+  margin-top: 150px;
+  text-align: center;
+  font-family: var(--title-font);
+  color: var(--second-title-font-color);
+}
 .navbar-bg,
 .bg-right,
 .bg-right-border {
