@@ -61,7 +61,7 @@ nav li.active a {
 .paragraph-title,
 .paragraph-text {
   color: var(--paragraph-color);
-  font-size: 14px;
+  font-size: 16px;
 }
 .paragraph-text {
   font-family: var(--paragraph-font);
