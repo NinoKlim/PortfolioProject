@@ -35,18 +35,32 @@
     <title>CV - Nina Klym</title>
   </head>
   <body>
-    <div class="container pt-5">
+    <div class="container-fluid content">
+      <nav class="d-flex justify-content-end">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li class="active"><a href="/cv.html">CV-page</a></li>
+          <li><a href="/index.html#my-projects">Work</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container-fluid content">
       <div class="row titles">
         <div class="col-sm-3">
-          <img src="images/programing-picture.svg" alt="" width="250" />
+          <img
+            src="images/programing-picture.svg"
+            alt=""
+            class="img-fluid photo-image d-none d-sm-block"
+          />
         </div>
-        <div class="col-sm-9 ps-5">
+        <div class="col-sm-9 hero">
           <h1 class="text-uppercase header">klymenko nina</h1>
           <h2 class="text-capitalize pt-3 second-title">web developer</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-3 pt-4 titles">
+        <div class="col-md-3 pt-4 titles">
           <h3 class="head-title">Contact info</h3>
           <ul class="paragraph-text ps-0">
             <li class="list-group-item">
@@ -67,7 +81,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-sm-9 pt-4 titles border-box">
+        <div class="col-md-9 pt-4 titles border-box">
           <h3 class="head-title">About me</h3>
           <h4 class="paragraph-text">
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -78,7 +92,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-3 bg-color pt-4 titles">
+        <div class="col-md-3 bg-color pt-4 titles">
           <h3 class="head-title">Skills</h3>
           <div class="row py-1">
             <div class="col-sm-4">
@@ -190,7 +204,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-sm-9 pt-4 titles">
+        <div class="col-md-9 pt-4 titles">
           <h3 class="head-title">Work experience</h3>
           <div class="row">
             <div class="col-sm-3 paragraph-title">
