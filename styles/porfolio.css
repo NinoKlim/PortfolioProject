@@ -8,6 +8,10 @@
   --paragraph-color: #d1d1d1;
   --hover-color: #dbdbdb;
 }
+footer {
+  padding: 50px 0;
+  background-color: var(--bg-color-right);
+}
 .contact-page-container {
   line-height: 45px;
   color: var(--second-title-font-color);
@@ -19,10 +23,10 @@
   background-color: var(--bg-color-left);
 }
 .header-contact-page {
-  margin-top: 150px;
   text-align: center;
   font-family: var(--title-font);
   color: var(--second-title-font-color);
+  margin-top: 150px;
 }
 .navbar-bg,
 .bg-right,
@@ -140,6 +144,21 @@
   color: var(--bg-color-right);
 }
 
+footer h1 {
+  color: var(--second-title-font-color);
+}
+.contact-links {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 16px;
+}
+.contact-links a {
+  margin: 20px;
+  padding: 14px 16px;
+  background-color: var(--second-title-font-color);
+  border-radius: 50%;
+  color: var(--bg-color-right);
+}
 @media (max-width: 1024px) {
   .tables {
     padding-right: 20px;
