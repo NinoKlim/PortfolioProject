@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../Netlify/VanillaWeather"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "PortfolioProject"
+  }
+}

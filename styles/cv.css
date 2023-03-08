@@ -2,8 +2,9 @@
   --main-font: "neue_montrealbold";
   --second-font: "neue_montrealregular";
   --paragraph-font: "neue_montreallight";
+  --paragraph-font-italic: "neue_montreallight_italic";
   --main-text-color: #aae0e8;
-  --paragraph-color: #f0f8ff;
+  --paragraph-color: #c6cbcf;
   --bg-color: #231f20;
 }
 body {
@@ -27,8 +28,15 @@ a {
   transition: all 100ms ease-in-out;
 }
 a:hover,
-nav li.active a {
+nav li.active a,
+.second-title,
+.head-title,
+.list-markers {
   color: var(--main-text-color);
+}
+
+.paragraph {
+  font-family: var(--paragraph-font-italic);
 }
 .content {
   max-width: 80%;
@@ -38,7 +46,6 @@ nav li.active a {
 }
 .titles {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-  color: var(--main-text-color);
 }
 .header {
   font-size: 52px;
@@ -46,6 +53,7 @@ nav li.active a {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--main-text-color);
 }
+
 .second-title {
   font-size: 30px;
 }
@@ -59,7 +67,8 @@ nav li.active a {
 }
 
 .paragraph-title,
-.paragraph-text {
+.paragraph-text,
+.paragraph {
   color: var(--paragraph-color);
   font-size: 16px;
 }

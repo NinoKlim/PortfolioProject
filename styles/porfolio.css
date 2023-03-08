@@ -27,6 +27,7 @@ footer {
 .header-contact-page {
   margin-top: 150px;
 }
+
 .navbar-bg,
 .bg-right,
 .bg-right-border {
@@ -128,7 +129,13 @@ footer {
   font-family: var(--second-font);
   font-weight: 300;
 }
-
+.table-text-style a {
+  text-decoration: none;
+  color: var(--bg-color-right);
+}
+.table-text-style a:hover {
+  text-decoration: underline;
+}
 .images-style {
   padding-bottom: 100px;
 }
