@@ -58,20 +58,20 @@ nav li.active a,
   font-size: 30px;
 }
 .head-title {
-  font-size: 18px;
+  font-size: 20px;
 }
 .second-title,
 .head-title,
 .paragraph-title {
   font-family: var(--second-font);
 }
-
 .paragraph-title,
 .paragraph-text,
 .paragraph {
   color: var(--paragraph-color);
   font-size: 16px;
 }
+
 .paragraph-text {
   font-family: var(--paragraph-font);
 }
