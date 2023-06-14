@@ -54,7 +54,7 @@ footer {
   font-family: var(--title-font);
   color: var(--title-font-color);
   font-size: 13vw;
-  font-weight: 500px;
+  font-weight: 500;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -127,7 +127,7 @@ footer {
 .table-text-style {
   color: var(--paragraph-color);
   font-family: var(--second-font);
-  font-weight: 300;
+  font-weight: 200;
 }
 .table-text-style a {
   text-decoration: none;

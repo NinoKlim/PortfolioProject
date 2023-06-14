@@ -1,12 +1,18 @@
 {
   "folders": [
-	{
-		"path": "../../../Netlify/VanillaWeather"
-	},
-	{
-		"path": "."
-	}
-],
+    {
+      "path": "../../../Netlify/VanillaWeather"
+    },
+    {
+      "path": "."
+    },
+    {
+      "path": "../../SheCodesReact/react-project"
+    },
+    {
+      "path": "../../SheCodesReact/weather-proj-react"
+    }
+  ],
   "settings": {
     "liveServer.settings.multiRootWorkspaceName": "PortfolioProject"
   }
