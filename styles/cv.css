@@ -34,7 +34,12 @@ nav li.active a,
 .list-markers {
   color: var(--main-text-color);
 }
-
+.img-hover:hover {
+  transform: scale(2.8);
+}
+.img-hover {
+  transition: transform 0.4s;
+}
 .paragraph {
   font-family: var(--paragraph-font-italic);
 }
