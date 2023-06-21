@@ -95,6 +95,9 @@ nav li.active a,
   }
 }
 @media (max-width: 600px) {
+  .img-hover:hover {
+    transform: none;
+  }
   .header,
   .second-title {
     text-align: center;
