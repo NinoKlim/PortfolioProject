@@ -86,6 +86,9 @@ nav li.active a,
 .photo-image {
   max-width: 250px;
 }
+.highlighted-text {
+  font-size: 16.7px;
+}
 @media (max-width: 920px) {
   .photo-image {
     max-width: 200px;
@@ -113,12 +116,10 @@ nav li.active a,
   }
   .paragraph-text {
     padding-left: 0;
+    margin-bottom: 0;
   }
   .titles {
     padding-top: 10px !important;
-  }
-  .paragraph-text {
-    margin-bottom: 0;
   }
   nav {
     padding: 10px 0;
